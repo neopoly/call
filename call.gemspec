@@ -6,11 +6,10 @@ require 'call/version'
 Gem::Specification.new do |spec|
   spec.name          = "call"
   spec.version       = Call::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.authors       = ["Jakob Holderbaum"]
+  spec.email         = ["jh@neopoly.de"]
+  spec.summary       = %q{Callback-Trigger-Pingpong for clean DCI implementation.}
+  spec.homepage      = "https://github.com/neopoly/call"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
