@@ -1,5 +1,7 @@
 module Call
   class Response
+    attr_reader :type, :args
+
     def initialize(type, *args)
       @type = type
       @args = args
@@ -7,7 +9,7 @@ module Call
 
     private
     def trigger_responded(type, &block)
-      if type == @type
+      if type == self.type
         block.call(*@args)
       end
     end
