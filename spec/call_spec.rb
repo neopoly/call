@@ -38,7 +38,7 @@ describe Call do
       end
 
       on.failure do |*args|
-        @calls << OpenStruct.new(:type => :success, :args => args)
+        @calls << OpenStruct.new(:type => :failure, :args => args)
       end
     end
 
@@ -46,5 +46,11 @@ describe Call do
     trigger.failure 22
 
     assert_equal 2, @calls.size
+
+    assert_equal :success,    @calls[0].type
+    assert_equal ['12', :b],  @calls[0].args
+
+    assert_equal :failure,    @calls[1].type
+    assert_equal [22],        @calls[1].args
   end
 end
