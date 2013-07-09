@@ -3,7 +3,7 @@
 We use this little gem for coordination the Callback-Trigger-Pingpong between
 contexts and their callers.
 
-See [https://github.com/neopoly/call/blob/master/examples/dci.rb](examples/dci.rb) for a running piece of code using `Call`.
+See [examples/dci.rb](https://github.com/neopoly/call/blob/master/examples/dci.rb) for a running piece of code using `Call`.
 
 
 ## Installation
