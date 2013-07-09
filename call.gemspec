@@ -6,7 +6,7 @@ require 'call/version'
 Gem::Specification.new do |spec|
   spec.name          = "call"
   spec.version       = Call::VERSION
-  spec.authors       = ["Jakob Holderbaum"]
+  spec.authors       = ["Jakob Holderbaum", "Peter Suschlik", "Jonas Thiel"]
   spec.email         = ["jh@neopoly.de"]
   spec.summary       = %q{Callback-Trigger-Pingpong for clean DCI implementation.}
   spec.homepage      = "https://github.com/neopoly/call"
