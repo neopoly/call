@@ -1,6 +1,10 @@
 # Call
 
-TODO: Write a gem description
+We use this little gem for coordination the Callback-Trigger-Pingpong between
+contexts and their callers.
+
+See [https://github.com/neopoly/call/blob/master/examples/dci.rb](examples/dci.rb) for a running piece of code using `Call`.
+
 
 ## Installation
 
@@ -15,10 +19,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install call
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
