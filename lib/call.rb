@@ -1,5 +1,9 @@
-require "call/version"
+require 'call/version'
+require 'call/trigger'
 
 module Call
-  # Your code goes here...
+  def self.new(*callbacks)
+    Class.new(Trigger) do
+    end
+  end
 end
